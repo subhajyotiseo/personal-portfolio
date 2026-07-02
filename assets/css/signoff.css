@@ -1,0 +1,17 @@
+.shared-signoff { position: relative; overflow: hidden; padding: 108px 0 98px; background: white; text-align: center; }
+.shared-signoff::before, .shared-signoff::after { position: absolute; width: 390px; height: 390px; border: 1px solid rgba(26,62,111,.08); border-radius: 50%; content: ""; }
+.shared-signoff::before { top: -280px; left: -155px; box-shadow: 0 0 0 55px rgba(74,144,217,.025), 0 0 0 110px rgba(26,62,111,.018); }
+.shared-signoff::after { right: -210px; bottom: -320px; box-shadow: 0 0 0 55px rgba(74,144,217,.025), 0 0 0 110px rgba(26,62,111,.018); }
+.shared-signoff-inner { position: relative; z-index: 1; }
+.shared-signoff h2 { max-width: 900px; margin-inline: auto; color: #222b38; font-family: "Inter", sans-serif; font-size: clamp(2rem, 4vw, 3.45rem); font-weight: 500; letter-spacing: -.04em; line-height: 1.24; }
+.shared-signoff h2 strong { color: #1a3e6f; font-weight: 800; }
+.shared-signoff-inner > p { margin-top: 25px; color: #748092; font-size: .82rem; }
+.shared-signoff-socials { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 31px; }
+.shared-signoff-socials a { display: grid; width: 40px; height: 40px; place-items: center; border: 1px solid #cbd8e5; border-radius: 50%; background: white; color: #1a3e6f; font-size: .75rem; font-weight: 800; text-decoration: none; transition: background 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease; }
+.shared-signoff-socials a:hover { border-color: #1a3e6f; background: #1a3e6f; color: white; transform: translateY(-3px); }
+
+@media (max-width: 760px) {
+  .shared-signoff { padding: 82px 0 74px; }
+  .shared-signoff h2 { font-size: clamp(1.75rem, 8.5vw, 2.6rem); line-height: 1.32; }
+  .shared-signoff-inner > p { max-width: 300px; margin-inline: auto; }
+}

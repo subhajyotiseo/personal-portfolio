@@ -1,0 +1,161 @@
+.about-page { background: #fff; }
+.about-page .site-header { border-bottom: 1px solid var(--line); }
+.about-page .section { scroll-margin-top: 90px; }
+
+.resume-hero { position: relative; overflow: hidden; padding: 98px 0 105px; background: linear-gradient(135deg, #f7fafe 0%, #e9f2fb 100%); }
+.resume-hero::before { position: absolute; top: -240px; right: -180px; width: 600px; height: 600px; border: 1px solid rgba(26,62,111,.1); border-radius: 50%; content: ""; }
+.resume-hero-grid { position: relative; display: grid; grid-template-columns: 1.2fr .8fr; align-items: center; gap: 80px; }
+.resume-hero-copy h1 { max-width: 790px; font-size: clamp(3.2rem, 6vw, 5.4rem); }
+.resume-hero-copy h1 span { color: var(--blue); }
+.resume-hero-copy > p:not(.eyebrow) { max-width: 730px; margin-top: 27px; color: #57667a; font-size: 1.08rem; }
+.resume-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 33px; }
+.resume-actions .button span, .outline-button span { margin-left: 8px; }
+.outline-button { display: inline-flex; min-height: 52px; align-items: center; justify-content: center; padding: 12px 22px; border: 1px solid #b8cce0; border-radius: 8px; background: rgba(255,255,255,.65); color: var(--navy); font-weight: 700; text-decoration: none; }
+.outline-button:hover { border-color: var(--blue); color: var(--blue); }
+.availability-line { display: flex; align-items: center; gap: 9px; margin-top: 28px; color: #66768a; font-size: .75rem; }
+.availability-line i { width: 8px; height: 8px; border-radius: 50%; background: #37a56c; box-shadow: 0 0 0 5px rgba(55,165,108,.1); }
+
+.candidate-card { padding: 31px; border: 1px solid #d5e1ed; border-radius: 15px; background: white; box-shadow: 0 22px 65px rgba(26,62,111,.12); }
+.candidate-top { display: flex; align-items: center; gap: 15px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+.profile-monogram { display: grid; width: 68px; height: 68px; flex: 0 0 68px; place-items: center; border-radius: 16px; background: var(--navy); color: white; font-size: 1.25rem; font-weight: 800; letter-spacing: -.03em; }
+.candidate-top strong, .candidate-top span { display: block; }
+.candidate-top strong { color: var(--navy); }
+.candidate-top span { margin-top: 4px; color: var(--muted); font-size: .7rem; }
+.candidate-card dl { margin: 8px 0 0; }
+.candidate-card dl > div { display: grid; grid-template-columns: .8fr 1.2fr; gap: 15px; padding: 13px 0; border-bottom: 1px solid #edf1f5; }
+.candidate-card dt { color: #8792a1; font-size: .65rem; }
+.candidate-card dd { margin: 0; color: #405067; font-size: .72rem; font-weight: 650; }
+.candidate-card > a { display: inline-flex; gap: 8px; margin-top: 22px; color: var(--blue); font-size: .76rem; font-weight: 700; text-decoration: none; }
+
+.quick-proof { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: white; }
+.quick-proof-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+.quick-proof-grid > div { min-height: 120px; padding: 27px; border-right: 1px solid var(--line); }
+.quick-proof-grid > div:first-child { border-left: 1px solid var(--line); }
+.quick-proof strong, .quick-proof span { display: block; }
+.quick-proof strong { color: var(--navy); font-size: 2rem; letter-spacing: -.05em; }
+.quick-proof span { margin-top: 5px; color: var(--muted); font-size: .68rem; }
+
+.about-resume-section { padding: 108px 0; scroll-margin-top: 85px; }
+.summary-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 110px; }
+.summary-copy { color: #58677a; font-size: 1.02rem; }
+.summary-copy p + p { margin-top: 19px; }
+.resume-section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 70px; margin-bottom: 55px; }
+.resume-section-heading > div { max-width: 700px; }
+.resume-section-heading > p { max-width: 430px; color: var(--muted); }
+
+.experience-section { background: var(--white); }
+.career-list { margin: 0; padding: 0; border-top: 1px solid var(--line); list-style: none; }
+.career-list > li { display: grid; grid-template-columns: 240px 1fr; gap: 55px; padding: 40px 0; border-bottom: 1px solid var(--line); }
+.career-date time, .career-date span { display: block; }
+.career-date time { color: var(--blue); font-size: .7rem; font-weight: 800; }
+.career-date span { margin-top: 7px; color: #8a94a2; font-size: .68rem; }
+.career-role h3 { font-size: 1.35rem; }
+.career-role > strong { display: block; margin-top: 5px; color: #56677b; font-size: .78rem; }
+.career-role > p { max-width: 800px; margin-top: 14px; color: var(--muted); font-size: .86rem; }
+.career-role ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; padding: 0; list-style: none; }
+.career-role li { padding: 6px 9px; border-radius: 4px; background: var(--blue-light); color: var(--navy); font-size: .62rem; font-weight: 650; }
+
+.skills-section { background: var(--navy-dark); color: white; }
+.light-resume-heading h2 { color: white; }
+.light-resume-heading > p { color: #afc3d9; }
+.capability-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid rgba(255,255,255,.14); border-left: 1px solid rgba(255,255,255,.14); }
+.capability-grid article { min-height: 210px; padding: 29px; border-right: 1px solid rgba(255,255,255,.14); border-bottom: 1px solid rgba(255,255,255,.14); }
+.capability-grid article > span { color: #7db7ee; font-size: .64rem; font-weight: 800; }
+.capability-grid h3 { margin-top: 25px; color: white; font-size: 1.12rem; }
+.capability-grid p { margin-top: 10px; color: #b5c8db; font-size: .79rem; }
+.tool-cloud { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 32px; }
+.tool-cloud span { padding: 8px 11px; border: 1px solid rgba(255,255,255,.15); border-radius: 5px; background: rgba(255,255,255,.06); color: #c7d8e8; font-size: .65rem; }
+
+.education-section { background: white; }
+.education-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 85px; align-items: start; }
+.education-list { margin-top: 38px; }
+.education-list article { padding: 24px 0; border-top: 1px solid var(--line); }
+.education-list time { color: var(--blue); font-size: .65rem; font-weight: 800; }
+.education-list h3 { margin-top: 12px; font-size: 1.18rem; }
+.education-list p { margin-top: 5px; color: var(--muted); font-size: .75rem; }
+.certification-panel { padding: 34px; border-radius: 14px; background: var(--white); }
+.certification-panel > h3 { font-size: 1.25rem; }
+.certification-panel ul { margin: 25px 0 0; padding: 0; list-style: none; }
+.certification-panel li { position: relative; padding: 10px 0 10px 23px; border-bottom: 1px solid #e2e8ef; color: #58677a; font-size: .75rem; }
+.certification-panel li::before { position: absolute; left: 0; color: var(--blue); content: "✓"; font-weight: 800; }
+.language-row { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 25px; }
+.language-row span { padding: 8px 10px; border-radius: 5px; background: white; color: var(--navy); font-size: .66rem; font-weight: 700; }
+.language-row small { margin-left: 4px; color: var(--muted); font-weight: 400; }
+
+.personal-section { background: var(--white); }
+.personal-grid { display: grid; grid-template-columns: 1fr .85fr; gap: 85px; align-items: center; }
+.personal-copy > p:not(.eyebrow) { margin-top: 20px; color: var(--muted); }
+.career-direction-card { padding: 36px; border-left: 4px solid var(--blue); background: white; box-shadow: 0 15px 45px rgba(26,62,111,.06); }
+.career-direction-card > span { color: var(--blue); font-size: .65rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.career-direction-card h3 { margin-top: 17px; font-size: 1.4rem; }
+.career-direction-card p { margin-top: 14px; color: var(--muted); font-size: .83rem; }
+.career-direction-card ul { margin: 22px 0 0; padding: 0; list-style: none; }
+.career-direction-card li { padding: 8px 0; border-top: 1px solid var(--line); color: #526177; font-size: .72rem; }
+
+.faq-resume-section { background: white; }
+.faq-resume-layout { display: grid; grid-template-columns: .72fr 1.28fr; gap: 95px; align-items: start; }
+.faq-resume-intro { position: sticky; top: 115px; }
+.faq-resume-intro > p:not(.eyebrow) { margin-top: 20px; color: var(--muted); }
+.faq-resume-list { border-top: 1px solid var(--line); }
+.faq-resume-list details { border-bottom: 1px solid var(--line); }
+.faq-resume-list summary { position: relative; padding: 23px 42px 23px 0; color: var(--navy); cursor: pointer; font-weight: 750; list-style: none; }
+.faq-resume-list summary::-webkit-details-marker { display: none; }
+.faq-resume-list summary::after { position: absolute; top: 19px; right: 3px; color: var(--blue); content: "+"; font-size: 1.5rem; font-weight: 400; }
+.faq-resume-list details[open] summary::after { content: "−"; }
+.faq-resume-list details p { padding: 0 45px 23px 0; color: var(--muted); font-size: .85rem; }
+
+.resume-cta { padding: 80px 0; background: var(--blue); }
+.resume-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 60px; }
+.resume-cta .eyebrow { margin-bottom: 12px; color: #dceeff; }
+.resume-cta h2 { max-width: 760px; color: white; font-size: clamp(2.1rem, 4vw, 3.35rem); }
+.resume-cta-actions { display: flex; flex: 0 0 auto; flex-wrap: wrap; gap: 11px; }
+
+.bengali-signoff { position: relative; overflow: hidden; padding: 108px 0 98px; background: white; text-align: center; }
+.bengali-signoff::before, .bengali-signoff::after { position: absolute; width: 390px; height: 390px; border: 1px solid rgba(26,62,111,.08); border-radius: 50%; content: ""; }
+.bengali-signoff::before { top: -280px; left: -155px; box-shadow: 0 0 0 55px rgba(74,144,217,.025), 0 0 0 110px rgba(26,62,111,.018); }
+.bengali-signoff::after { right: -210px; bottom: -320px; box-shadow: 0 0 0 55px rgba(74,144,217,.025), 0 0 0 110px rgba(26,62,111,.018); }
+.bengali-signoff-inner { position: relative; z-index: 1; }
+.bengali-seal { position: relative; display: grid; width: 88px; height: 88px; margin: 0 auto 27px; place-content: center; border: 2px solid var(--navy); border-radius: 50%; background: var(--white); color: var(--navy); box-shadow: 0 0 0 7px white, 0 0 0 8px rgba(74,144,217,.35); }
+.bengali-seal::before, .bengali-seal::after { position: absolute; top: 50%; width: 18px; height: 1px; background: var(--blue); content: ""; }
+.bengali-seal::before { left: -28px; }
+.bengali-seal::after { right: -28px; }
+.bengali-seal span { font-family: "Noto Sans Bengali", sans-serif; font-size: 1.3rem; font-weight: 800; line-height: 1; }
+.bengali-seal small { margin-top: 7px; color: var(--blue); font-size: .48rem; font-weight: 800; letter-spacing: .18em; }
+.bengali-kicker { margin-bottom: 17px; color: var(--blue); font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.bengali-signoff h2 { max-width: 900px; margin-inline: auto; color: #222b38; font-family: "Inter", sans-serif; font-size: clamp(2rem, 4vw, 3.45rem); font-weight: 500; letter-spacing: -.04em; line-height: 1.24; }
+.bengali-signoff h2 strong { color: var(--navy); font-weight: 800; }
+.signoff-translation { margin-top: 25px; color: #748092; font-size: .82rem; }
+.signoff-socials { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 31px; }
+.signoff-socials a { display: grid; width: 40px; height: 40px; place-items: center; border: 1px solid #cbd8e5; border-radius: 50%; background: white; color: var(--navy); font-size: .75rem; font-weight: 800; text-decoration: none; transition: background 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease; }
+.signoff-socials a:hover { border-color: var(--navy); background: var(--navy); color: white; transform: translateY(-3px); }
+
+@media (max-width: 980px) {
+  .resume-hero-grid, .summary-grid, .education-layout, .personal-grid, .faq-resume-layout { grid-template-columns: 1fr; gap: 55px; }
+  .resume-hero-copy { text-align: center; }
+  .resume-hero-copy > p:not(.eyebrow) { margin-inline: auto; }
+  .resume-actions, .availability-line { justify-content: center; }
+  .candidate-card { width: min(100%, 620px); margin-inline: auto; }
+  .capability-grid { grid-template-columns: repeat(2, 1fr); }
+  .faq-resume-intro { position: static; }
+  .resume-section-heading, .resume-cta-inner { align-items: flex-start; flex-direction: column; }
+}
+
+@media (max-width: 760px) {
+  .resume-hero { padding: 70px 0 78px; }
+  .resume-hero-copy h1 { font-size: clamp(2.6rem, 12vw, 3.8rem); }
+  .resume-actions { align-items: stretch; flex-direction: column; }
+  .resume-actions .button, .resume-actions .outline-button { width: 100%; }
+  .candidate-card { padding: 23px; }
+  .candidate-card dl > div { grid-template-columns: 1fr 1.2fr; }
+  .quick-proof-grid { grid-template-columns: repeat(2, 1fr); }
+  .quick-proof-grid > div:nth-child(3) { border-left: 1px solid var(--line); }
+  .about-resume-section { padding: 78px 0; }
+  .career-list > li { grid-template-columns: 1fr; gap: 15px; padding: 32px 0; }
+  .capability-grid { grid-template-columns: 1fr; }
+  .capability-grid article { min-height: 0; }
+  .resume-cta-actions { width: 100%; flex-direction: column; }
+  .resume-cta-actions .button { width: 100%; }
+  .bengali-signoff { padding: 82px 0 74px; }
+  .bengali-signoff h2 { font-size: clamp(1.75rem, 8.5vw, 2.6rem); line-height: 1.32; }
+  .signoff-translation { max-width: 300px; margin-inline: auto; }
+}
