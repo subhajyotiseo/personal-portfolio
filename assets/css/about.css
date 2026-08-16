@@ -122,7 +122,7 @@
 .bengali-seal span { font-family: "Noto Sans Bengali", sans-serif; font-size: 1.3rem; font-weight: 800; line-height: 1; }
 .bengali-seal small { margin-top: 7px; color: var(--blue); font-size: .48rem; font-weight: 800; letter-spacing: .18em; }
 .bengali-kicker { margin-bottom: 17px; color: var(--blue); font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
-.bengali-signoff h2 { max-width: 900px; margin-inline: auto; color: #222b38; font-family: "Inter", sans-serif; font-size: clamp(2rem, 4vw, 3.45rem); font-weight: 500; letter-spacing: -.04em; line-height: 1.24; }
+.bengali-signoff h2 { max-width: 760px; margin-inline: auto; color: #222b38; font-family: "Inter", sans-serif; font-size: clamp(1.35rem, 2.2vw, 2rem); font-weight: 500; letter-spacing: -.025em; line-height: 1.38; }
 .bengali-signoff h2 strong { color: var(--navy); font-weight: 800; }
 .signoff-translation { margin-top: 25px; color: #748092; font-size: .82rem; }
 .signoff-socials { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 31px; }
@@ -156,6 +156,7 @@
   .resume-cta-actions { width: 100%; flex-direction: column; }
   .resume-cta-actions .button { width: 100%; }
   .bengali-signoff { padding: 82px 0 74px; }
-  .bengali-signoff h2 { font-size: clamp(1.75rem, 8.5vw, 2.6rem); line-height: 1.32; }
+  .bengali-signoff h2 { max-width: 540px; font-size: clamp(1.15rem, 5vw, 1.45rem); line-height: 1.42; }
   .signoff-translation { max-width: 300px; margin-inline: auto; }
 }
+
