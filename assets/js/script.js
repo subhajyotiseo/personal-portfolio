@@ -3,8 +3,6 @@ const navigation = document.querySelector('.primary-nav');
 const header = document.querySelector('.site-header');
 const form = document.querySelector('#contact-form');
 const formStatus = document.querySelector('#form-status');
-const auditForm = document.querySelector('#audit-form');
-const contactWebsite = document.querySelector('#contact-form input[name="website"]');
 
 function closeMenu() {
   menuButton.setAttribute('aria-expanded', 'false');
@@ -36,21 +34,15 @@ updateHeader();
 
 document.querySelector('#current-year').textContent = new Date().getFullYear();
 
-auditForm.addEventListener('submit', (event) => {
-  event.preventDefault();
-  contactWebsite.value = document.querySelector('#audit-url').value;
-  document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
-  window.setTimeout(() => document.querySelector('#contact-form input[name="name"]').focus(), 500);
-});
-
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const data = new FormData(form);
-  const subject = encodeURIComponent(`SEO enquiry from ${data.get('name')}`);
+  const subject = encodeURIComponent(`Professional opportunity from ${data.get('name')}`);
   const body = encodeURIComponent(
-    `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nWebsite: ${data.get('website') || 'Not provided'}\n\n${data.get('message')}`
+    `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nCompany: ${data.get('company') || 'Not provided'}\n\n${data.get('message')}`
   );
 
   formStatus.textContent = 'Opening your email app…';
   window.location.href = `mailto:hello@subhajyoti.com?subject=${subject}&body=${body}`;
 });
+
