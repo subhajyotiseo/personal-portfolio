@@ -1,0 +1,32 @@
+# Subhajyoti Karmakar — SEO Professional Portfolio
+
+> The professional portfolio of Subhajyoti Karmakar, an SEO professional and organic growth strategist with more than five years of hands-on experience across technical SEO, content strategy, local SEO, authority building, analytics, YouTube SEO, team coordination, and AI-assisted search workflows.
+
+This website documents Subhajyoti Karmakar's career history, practical SEO capabilities, selected certifications, writing, and results from projects across education, travel, hospitality, local services, and professional services. Client names are withheld where confidentiality applies. Performance figures should be interpreted in the context provided by each case study and are not guarantees of future results.
+
+## Profile
+
+- [Homepage](https://www.subhajyoti.com/): Overview of experience, skills, career journey, tools, certificates, selected results, and contact information.
+- [About Subhajyoti Karmakar](https://www.subhajyoti.com/pages/about.html): Professional summary, employment history, education, capabilities, career preferences, languages, interests, and personal FAQ.
+- [Contact](https://www.subhajyoti.com/pages/contact.html): Email, phone, social profiles, location, availability, and contact form.
+
+## Case Studies
+
+- [SEO Case Studies](https://www.subhajyoti.com/pages/case-studies.html): Index of selected organic growth, authority, lead generation, and local SEO projects.
+- [Education Organic Growth](https://www.subhajyoti.com/pages/case-studies/education-organic-growth.html): Growing non-branded organic visibility for a confidential education client.
+- [Course Website Organic Leads](https://www.subhajyoti.com/pages/case-studies/course-website-organic-leads.html): Organic traffic and enquiry generation for a confidential course-selling website.
+- [Resume Brand Website Authority](https://www.subhajyoti.com/pages/case-studies/resume-brand-website-authority.html): Off-page and on-page SEO work that strengthened authority for a confidential custom CV and resume brand.
+- [Gangtok Business Profile Restoration](https://www.subhajyoti.com/pages/case-studies/gangtok-business-profile-restoration.html): Recovery of a suspended Google Business Profile and its reviews for a confidential cab rental business.
+- [Education Organic Admission Leads](https://www.subhajyoti.com/pages/case-studies/education-organic-admission-leads.html): Student-focused SEO strategy that generated organic admission leads for a confidential education brand.
+
+## Articles
+
+- [SEO Blog](https://www.subhajyoti.com/pages/blog.html): Index of practical SEO articles and planned topics.
+- [How to Prioritize Technical SEO Fixes by Business Impact](https://www.subhajyoti.com/pages/blog/technical-seo-priorities.html): A framework for prioritizing technical SEO work by urgency, reach, effort, and business value.
+
+## Optional
+
+- [Privacy Policy](https://www.subhajyoti.com/pages/privacy-policy.html): Information about data received through the portfolio website and how it is handled.
+- [Terms and Conditions](https://www.subhajyoti.com/pages/terms-and-conditions.html): Conditions governing use of the portfolio website and its professional information.
+- [XML Sitemap](https://www.subhajyoti.com/sitemap.xml): Machine-readable index of public website URLs.
+
